@@ -1,0 +1,70 @@
+.s-benefits
+  position: relative
+  z-index: 3
+  padding: 50px 0 100px
+
+  .section-title
+    .h2
+      font-size: 68px
+
+.benefits-right
+  text-align: right
+  font-weight: 600
+  color: #FF15E8
+  margin-right: -145px
+  margin-bottom: 80px
+
+.benefits
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 24px
+  grid-auto-rows: 1fr
+
+.benefit
+  background-color: #3562FF
+  color: #fff
+  text-align: center
+  padding: 75px 30px
+  -webkit-border-radius: 20px
+  -moz-border-radius: 20px
+  border-radius: 20px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  position: relative
+  overflow: hidden
+  +tr
+
+  @media (min-width: 1024px)
+    &:nth-child(1),
+    &:nth-child(4)
+      background: linear-gradient(90deg, #3562FF 0%, #455FFF 100%)
+
+    &:nth-child(2)
+      background: linear-gradient(90deg, #455FFF 0%, #7259FF 100%)
+
+    &:nth-child(3),
+    &:nth-child(5)
+      background: linear-gradient(90deg, #7259FF 0%, #9F52FF 100%)
+
+    &:hover
+      transform: scale(1.05)
+
+    &:nth-child(2)
+      grid-row: span 2
+
+  img
+    width: 72px
+    height: 72px
+    object-fit: contain
+    margin-bottom: 28px
+    position: relative
+    z-index: 1
+
+  .h6
+    font-weight: 600
+    font-size: 24px
+    max-width: 310px
+    position: relative
+    z-index: 1

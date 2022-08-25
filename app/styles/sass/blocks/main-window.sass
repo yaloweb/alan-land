@@ -1,0 +1,62 @@
+.s-main-window
+  color: #fff
+  padding: 178px 0 164px
+  position: relative
+  z-index: 1
+
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 160%
+    z-index: -1
+    background: linear-gradient(90deg, #3562FF -6.98%, #C64DFF 142.19%)
+
+.main-window-content
+  max-width: 829px
+  margin: 0 auto
+  text-align: center
+
+  h1
+    font-weight: bold
+    font-size: 68px
+    line-height: 1
+    margin-bottom: 33px
+
+    > span
+      padding: 0 10px
+      background: linear-gradient(90deg, #FF8049 -1.1%, #FFD335 80.24%)
+      background-size: 100% 85%
+      background-repeat: no-repeat
+      background-position: left 50% top 50%
+      color: $textcolor
+
+  p
+    font-size: 24px
+    font-family: $interfont
+    margin: 0 0 40px
+
+    span
+      color: $yellow
+      font-weight: 600
+
+.down-link
+  display: inline-block
+  animation: updown 2s ease-in-out infinite
+
+  img
+    width: 15px
+    +tr
+
+    &.for-mob
+      display: none
+
+@keyframes updown
+  0%
+    transform: translateY(-5px)
+  50%
+    transform: translateY(5px)
+  100%
+    transform: translateY(-5px)

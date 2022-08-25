@@ -1,0 +1,142 @@
+.s-customization
+  background: linear-gradient(90deg, #3562FF -6.98%, #C64DFF 142.19%)
+  color: #fff
+  padding: 87px 0 200px
+
+.customization-row
+  display: grid
+  grid-gap: 24px
+  grid-template-columns: 33.33333% 66.66666%
+  padding-bottom: 204px
+
+.customization-left
+  .h2
+    margin-bottom: 24px
+
+.customization-item
+  height: 100vh
+
+  .h3
+    max-width: 413px
+
+  p
+    max-width: 341px
+    margin: 0 0 15px
+    font-size: 19px
+    font-family: $interfont
+
+    &:last-child
+      margin-bottom: 0
+
+  img
+    display: none
+
+.customization-right
+  position: relative
+
+.customization-img-block
+  position: sticky
+  top: 70px
+  -webkit-border-radius: 50px
+  -moz-border-radius: 50px
+  border-radius: 50px
+  overflow: hidden
+  margin-right: -288px
+
+  &:after
+    content: ''
+    display: block
+    width: 100%
+    padding-bottom: 75.5%
+
+  img
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    object-fit: cover
+    object-position: top center
+    +tr(4)
+    opacity: 0
+
+    &.active
+      opacity: 1
+
+.chess-block
+  display: flex
+  margin: 0 -35px 204px
+
+  &:last-child
+    margin-bottom: 0
+
+  &:nth-child(even)
+    flex-direction: row-reverse
+
+    .chess-block-img
+      justify-content: flex-end
+
+  & > div
+    flex-shrink: 0
+    padding: 0 35px
+
+.chess-block-text
+  width: 33.33333%
+  padding-top: 47px !important
+
+  .h2
+    margin-bottom: 23px
+
+  p
+    max-width: 431px
+    margin: 0 0 15px
+    font-size: 19px
+    font-family: $interfont
+
+    &:last-child
+      margin-bottom: 0
+
+.chess-block-img
+  width: 66.66666%
+  display: flex
+
+  img
+    width: calc(100% + 288px)
+    flex-shrink: 0
+
+.support-info
+  padding-top: 210px
+  display: flex
+  align-items: center
+  max-width: 1180px
+  margin-left: auto
+  margin-right: auto
+
+.support-text
+  flex-grow: 1
+  padding-right: 30px
+  width: 58.33333%
+  flex-shrink: 0
+
+  .h2
+    margin-bottom: 35px
+
+  p
+    max-width: 617px
+    margin: 0 0 24px
+
+    &:last-child
+      margin-bottom: 0
+
+  img
+    width: 100%
+    margin: 0 auto 28px
+    display: none
+
+.support-img
+  flex-shrink: 0
+  width: 41.66666%
+
+  img
+    max-width: 100%
+    width: 408px

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pr" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46560515-48f5-427b-a8db-72e8536d5827" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/_media.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/benefits.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/callback.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/customaztion.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/features.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/form.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/functional.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/main-window.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/partners.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/tariffs.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/roboto-bold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/roboto-bolditalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/roboto-italic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/roboto-regular-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dist/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/parts/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/parts/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/less/_config.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/less/blocks/_general.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/less/blocks/example-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/less/main.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_config.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_config.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/_general.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/blocks/_general.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/example-block.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/example-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/styl/_config.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/styl/blocks/_general.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/styl/blocks/example-block.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/styl/main.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2DAuyEs7X5tfOnK7hl9cCErXUYv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bik.agency" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\white\OneDrive\Рабочий стол\alanbase-land\app\js\modules" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46560515-48f5-427b-a8db-72e8536d5827" name="Default Changelist" comment="" />
+      <created>1660154462644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660154462644</updated>
+      <workItem from="1660154464113" duration="3588000" />
+      <workItem from="1660343459932" duration="46000" />
+      <workItem from="1660404869150" duration="4479000" />
+      <workItem from="1660494360038" duration="5298000" />
+      <workItem from="1660588356452" duration="4124000" />
+      <workItem from="1660844343417" duration="9149000" />
+      <workItem from="1661006752634" duration="9731000" />
+      <workItem from="1661240269321" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1660154482162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660154482162" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1661240275219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1661240275219" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1661031655526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1661031655526" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1660855172018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660855172018" />
+  </component>
+</project>

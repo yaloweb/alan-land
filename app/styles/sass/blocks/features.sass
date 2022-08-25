@@ -1,0 +1,33 @@
+.s-features
+  padding: 100px 0
+
+.features-list
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-gap: 24px 21px
+
+.features-item
+  display: flex
+  align-items: center
+  background: linear-gradient(90deg, #00B5CE 0%, #10BEAE 100%)
+  color: #fff
+  height: 100%
+  padding: 37px 48px 31px
+  -webkit-border-radius: 20px
+  -moz-border-radius: 20px
+  border-radius: 20px
+
+  &:nth-child(even)
+    background: linear-gradient(90deg, #10BFAD 0%, #20C98F 100%)
+
+  img
+    width: 72px
+    height: 72px
+    flex-shrink: 0
+    object-fit: contain
+    margin-right: 50px
+
+  .h4
+    font-weight: bold
+    font-size: 24px
+    line-height: 1

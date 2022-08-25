@@ -1,0 +1,36 @@
+.s-partners
+  position: relative
+  z-index: 2
+  margin-top: -44px
+  color: #fff
+  padding: 90px 0 135px
+
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: #2A2C3A
+    z-index: -1
+    transform: skew(0, -5.93deg)
+
+.partners
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-gap: 49px 30px
+
+.partners-item
+  text-align: center
+  font-size: 19px
+
+  img
+    width: 240px
+    height: 100px
+    object-fit: contain
+    max-width: 100%
+    margin-bottom: 9px
+    display: block
+    margin-left: auto
+    margin-right: auto

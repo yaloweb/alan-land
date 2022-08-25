@@ -1,0 +1,93 @@
+.s-tariffs
+  background-color: #2A2C3A
+  color: #fff
+  padding: 100px 0
+
+  .section-title
+    .h2
+      margin-bottom: 19px
+
+    p
+      margin: 0
+      font-size: 24px
+      color: #4971FF
+
+.tariffs-grid
+  display: grid
+  grid-gap: 24px
+  grid-template-columns: repeat(4, 1fr)
+
+.tariff
+  display: flex
+  flex-direction: column
+  border: 2px solid #3F4252
+  border-radius: 50px
+  padding: 50px 40px
+
+  &.popular
+    background-color: #3F4252
+
+  &:not(.accent)
+    grid-row: span 2
+
+  &.accent
+    .tariff-title
+      background-image: linear-gradient(90deg, #FF8049 0%, #F64E60 100%)
+
+.tariff-title
+  color: #00B4CD
+  background-image: linear-gradient(90deg, #4971FF 0%, #00B4CD 100%)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  background-clip: text
+  text-fill-color: transparent
+  margin-bottom: 40px
+  font-size: 40px
+  font-weight: bold
+  line-height: 1
+
+.tariff-conversion
+  margin-bottom: 20px
+  font-weight: 500
+  font-size: 24px
+
+  span
+    display: block
+    font-size: 32px
+    line-height: 1
+    font-weight: bold
+
+.tariff-description
+  font-size: 18px
+  line-height: 1.111
+  color: #A6A9BE
+  max-width: 245px
+  margin-bottom: 20px
+
+  span
+    font-weight: 600
+
+.tariff-price
+  font-size: 24px
+  margin-bottom: 20px
+  margin-top: auto
+
+  span
+    font-size: 32px
+    font-weight: bold
+
+.tariff-btn
+  .btn
+    width: 100%
+    height: 60px
+    line-height: 60px
+    border-radius: 30px
+
+    &:after,
+    &:before
+      -webkit-border-radius: 30px
+      -moz-border-radius: 30px
+      border-radius: 30px
+
+.tariff-content
+  flex-grow: 1

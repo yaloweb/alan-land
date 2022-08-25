@@ -1,0 +1,52 @@
+$accent: #3B61FF
+$textcolor: #2A2C3A
+$yellow: #FFD136
+$fontsize: 19px
+$lineheight: 1.33
+$userfont: montserrat, sans-serif
+$interfont: inter, sans-serif
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif
+
+
+@import 'node_modules/bootstrap/scss/bootstrap-reboot.scss' // Bootstrap Reboot collection
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss' // Bootstrap Breakpoints mixin
+
+@mixin font($fname, $fstyle, $fweight, $furl)
+	@font-face
+		font-family: $fname
+		font-style: $fstyle
+		font-weight: $fweight
+		src: url($furl) format('woff2')
+
+@include font('montserrat', normal, 400, '../fonts/Montserrat-Regular.woff2')
+@include font('montserrat', normal, 500, '../fonts/Montserrat-Medium.woff2')
+@include font('montserrat', normal, 600, '../fonts/Montserrat-SemiBold.woff2')
+@include font('montserrat', normal, 700, '../fonts/Montserrat-Bold.woff2')
+@include font('inter', normal, 400, '../fonts/Inter.woff2')
+@include font('inter', normal, 600, '../fonts/Inter-SemiBold.woff2')
+
+@mixin tr($ms: 3)
+	transition: all $ms * 0.1+s ease
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+input, textarea
+	outline: none
+	&:focus:required:invalid
+		border-color: red
+	&:required:valid
+		border-color: green
+
+body
+	font-family: $userfont
+	font-size: $fontsize
+	line-height: $lineheight
+	color: $textcolor
+	min-width: 320px
+	position: relative
+	overflow-x: hidden
